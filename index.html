@@ -4,9 +4,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Port teste</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Portfolio teste</title>
 </head>
 <body>
-    
+<section class="home">
+    <header id="home">
+        <div class="container">
+            <nav>
+                <div class="flags">
+                    <img src="https://img.icons8.com/color/48/null/usa-circular.png"/>
+                    <img src="https://img.icons8.com/color/48/null/brazil-circular.png"/>
+                    <img src="https://img.icons8.com/color/48/null/spain2-circular.png"/>
+                    <img src="https://img.icons8.com/fluency/48/null/germany-circular.png"/>
+                </div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Front-End Developer</p>
+                <h1>Hi, I'm <span>Thayna</span><br>MacDolw.</h1>
+                <img src="assets/laptop.gif" alt="">
+            </div>
+        </div>
+    </header>
+</section>
+<!-- About Section-->
+<section class="about" id="about">
+    <div class="container-about">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="assets/b&ww.png" onmouseover="this.src='/assets/thay.png'" onmouseout="this.src='assets/b&ww.png'">
+            </div>
+            <div class="about-col-2">
+                <h1 class="about-title">About Me</h1>
+                <p>I’m passionate about programming ever since I found a tutorial on how to build a calculator using Python. I am hooked to the world of computers ever since. Lately, I’ve discovered my passion for the world of web development and the beauty behind building useful websites like the one you will find in this portfolio. I’m now looking for a junior dev position to finally kick start my career and learn among professionals.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('languages')">Languages</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>HTML/CSS</span></li>
+                        <li><span>JavaScript</span></li>
+                        <li><span>React</span></li>
+                        <li><span>Media Queries</span></li>
+                        <li><span>Sass</span></li>
+                        <li><span>SEO</span></li>
+                        <li><span>Git</span></li>
+                        <li><span>Photoshop</span></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2016-2020</span><br>International Relations at Estácio de Sá University</li>
+                        <li><span>2022-2025</span><br>Analysis and Systems Development at UniAmérica University</li>
+                        <li><span>2023-2024</span><br>Full Stack course at DevClub</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="languages">
+                    <ul>
+                        <li><span>Brazilian Portuguese</span><br>Native Speacker</li>
+                        <li><span>English</span><br>C1</li>
+                        <li><span>Spanish</span><br>B2-Studying</li>
+                        <li><span>German</span><br>A1-Studying</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div> 
+
+</section>
+<section class="portfolio" id="portfolio">
+
+</section>
+<section class="contact" id="contact">
+
+</section>
+<footer>
+
+</footer>
+  
 </body>
 </html>
