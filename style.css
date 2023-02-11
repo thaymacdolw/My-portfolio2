@@ -338,6 +338,8 @@ nav ul li a:hover::after {
     padding: .07rem .1rem;
     font-family: var(--font2);
     color: white;
+    background-color: var(--color1);
+    border: none;
     text-decoration: underline;
     text-decoration-color: white;
     position: relative;
