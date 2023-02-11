@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script src="mixitup.min.js"></script>
     <title>Portfolio teste</title>
 </head>
 <body>
@@ -42,7 +44,7 @@
                 <img src="assets/b&ww.png" onmouseover="this.src='/assets/thay.png'" onmouseout="this.src='assets/b&ww.png'">
             </div>
             <div class="about-col-2">
-                <h1 class="about-title">About Me</h1>
+                <h2 class="about-title">About Me</h2>
                 <p>I’m passionate about programming ever since I found a tutorial on how to build a calculator using Python. I am hooked to the world of computers ever since. Lately, I’ve discovered my passion for the world of web development and the beauty behind building useful websites like the one you will find in this portfolio. I’m now looking for a junior dev position to finally kick start my career and learn among professionals.</p>
                 <div class="tab-titles">
                     <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
@@ -70,20 +72,158 @@
                 </div>
                 <div class="tab-contents" id="languages">
                     <ul>
-                        <li><span>Brazilian Portuguese</span><br>Native Speacker</li>
+                        <li><span>Brazilian Portuguese</span><br>Native Speaker</li>
                         <li><span>English</span><br>C1</li>
                         <li><span>Spanish</span><br>B2-Studying</li>
                         <li><span>German</span><br>A1-Studying</li>
                     </ul>
                 </div>
             </div>
-
         </div>
     </div> 
-
 </section>
+<!-- Portfolio Section-->
 <section class="portfolio" id="portfolio">
-
+    <div class="modal">
+        <div class="modal-overlay"></div>
+        <div class="slider-wrap">
+            <div class="prev-btn navigation">
+                <i class="uil uil-angle-left-b"></i>
+            </div>
+            <div class="images-modal">
+                <img class="showImage" src="assets/soon.jpg" alt="">
+                <img src="assets/soon.jpg" alt="">
+                <img src="assets/soon.jpg" alt="">
+                <img src="assets/soon.jpg" alt="">
+                <img src="assets/soon.jpg" alt="">
+                <img src="assets/soon.jpg" alt="">
+                <img src="assets/soon.jpg" alt="">
+                <img src="assets/soon.jpg" alt="">
+            </div>
+            <div class="next-btn navigation">
+                <i class="uil uil-angle-right-b"></i>
+            </div>
+        </div>
+    </div>
+    <div class="container-portfolio">
+        <div class="portfolio-header">
+            <div class="portfolio-title">
+                <h2 class="sub-title-port">My Projects</h2>
+            </div>
+            <div class="filter-btns">
+                <button class="filter-btn" data-filter="all">All</button>
+                <button class="filter-btn" data-filter=".category-a">Landing Pages</button>
+                <button class="filter-btn" data-filter=".category-b">Websites</button>
+                <button class="filter-btn" data-filter=".category-c">Bots</button>
+            </div>
+        </div>
+        <div class="portfolio-gallery">
+            <div class="mix prt-card category-a" data-order="1">
+                <div class="prt-image">
+                    <img src="assets/soon.jpg" alt="">
+                    <div class="prt-overlay">
+                        <span class="prt-icon zoom-icon" style="--i: 0s"><i class="uil uil-search-plus"></i></span>
+                        <a href="#" class="prt-icon" style="--i: .15s"><i class="uil uil-link-h"></i></a>                       
+                    </div>
+                </div>
+                <div class="prt-desc">
+                    <h3>Landing Page</h3>
+                    <a href="#" class="btn secondary-btn sm">Details</a>
+                </div>
+            </div>
+            <div class="mix prt-card category-c" data-order="2">
+                <div class="prt-image">
+                    <img src="assets/soon.jpg" alt="">
+                    <div class="prt-overlay">
+                        <span class="prt-icon zoom-icon" style="--i: 0s"><i class="uil uil-search-plus"></i></span>
+                        <a href="#" class="prt-icon" style="--i: .15s"><i class="uil uil-link-h"></i></a>                       
+                    </div>
+                </div>
+                <div class="prt-desc">
+                    <h3>Bot</h3>
+                    <a href="#" class="btn secondary-btn sm">Details</a>
+                </div>
+            </div>
+            <div class="mix prt-card category-b" data-order="3">
+                <div class="prt-image">
+                    <img src="assets/soon.jpg" alt="">
+                    <div class="prt-overlay">
+                        <span class="prt-icon zoom-icon" style="--i: 0s"><i class="uil uil-search-plus"></i></span>
+                        <a href="#" class="prt-icon" style="--i: .15s"><i class="uil uil-link-h"></i></a>                       
+                    </div>
+                </div>
+                <div class="prt-desc">
+                    <h3>Website</h3>
+                    <a href="#" class="btn secondary-btn sm">Details</a>
+                </div>
+            </div>
+            <div class="mix prt-card category-a" data-order="4">
+                <div class="prt-image">
+                    <img src="assets/soon.jpg" alt="">
+                    <div class="prt-overlay">
+                        <span class="prt-icon zoom-icon" style="--i: 0s"><i class="uil uil-search-plus"></i></span>
+                        <a href="#" class="prt-icon" style="--i: .15s"><i class="uil uil-link-h"></i></a>                       
+                    </div>
+                </div>
+                <div class="prt-desc">
+                    <h3>Landing Page</h3>
+                    <a href="#" class="btn secondary-btn sm">Details</a>
+                </div>
+            </div>
+            <div class="mix prt-card category-c"data-order="5">
+                <div class="prt-image">
+                    <img src="assets/soon.jpg" alt="">
+                    <div class="prt-overlay">
+                        <span class="prt-icon zoom-icon" style="--i: 0s"><i class="uil uil-search-plus"></i></span>
+                        <a href="#" class="prt-icon" style="--i: .15s"><i class="uil uil-link-h"></i></a>                       
+                    </div>
+                </div>
+                <div class="prt-desc">
+                    <h3>Bot</h3>
+                    <a href="#" class="btn secondary-btn sm">Details</a>
+                </div>
+            </div>
+            <div class="mix prt-card category-b" data-order="6">
+                <div class="prt-image">
+                    <img src="assets/soon.jpg" alt="">
+                    <div class="prt-overlay">
+                        <span class="prt-icon zoom-icon" style="--i: 0s"><i class="uil uil-search-plus"></i></span>
+                        <a href="#" class="prt-icon" style="--i: .15s"><i class="uil uil-link-h"></i></a>                       
+                    </div>
+                </div>
+                <div class="prt-desc">
+                    <h3>Website</h3>
+                    <a href="#" class="btn secondary-btn sm">Details</a>
+                </div>
+            </div>
+            <div class="mix prt-card category-a" data-order="7">
+                <div class="prt-image">
+                    <img src="assets/soon.jpg" alt="">
+                    <div class="prt-overlay">
+                        <span class="prt-icon zoom-icon" style="--i: 0s"><i class="uil uil-search-plus"></i></span>
+                        <a href="#" class="prt-icon" style="--i: .15s"><i class="uil uil-link-h"></i></a>                       
+                    </div>
+                </div>
+                <div class="prt-desc">
+                    <h3>Landing Page</h3>
+                    <a href="#" class="btn secondary-btn sm">Details</a>
+                </div>
+            </div>
+            <div class="mix prt-card category-a" data-order="8">
+                <div class="prt-image">
+                    <img src="assets/soon.jpg" alt="">
+                    <div class="prt-overlay">
+                        <span class="prt-icon zoom-icon" style="--i: 0s"><i class="uil uil-search-plus"></i></span>
+                        <a href="#" class="prt-icon" style="--i: .15s"><i class="uil uil-link-h"></i></a>                       
+                    </div>
+                </div>
+                <div class="prt-desc">
+                    <h3>Landing Page</h3>
+                    <a href="#" class="btn secondary-btn sm">Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <section class="contact" id="contact">
 
@@ -91,6 +231,6 @@
 <footer>
 
 </footer>
-  
+    <script src="mixitup.min.js"></script>
 </body>
 </html>
