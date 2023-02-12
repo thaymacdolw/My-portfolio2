@@ -470,8 +470,6 @@ nav ul li a:hover::after {
 /* ----------------- CONTACT STYLING --------------------- */
 #contact {
     background-color: #030303
-    min-height: 100vh;
-    color: var(--color2);
 }
 
 .container-form {
