@@ -172,6 +172,20 @@ nav ul li a:hover::after {
     text-align: justify;
     margin-top: -3%;
 }
+.cv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 1.5em;
+    border-radius: 15px;
+    border: none;
+    background-color: var(--color1);
+    color: #fff;
+    font-family: var(--font1);
+    margin: 20px 0;
+    cursor: pointer;
+}
 
 .about-col-2 p {
     font-weight: 400;
@@ -455,7 +469,7 @@ nav ul li a:hover::after {
 
 /* ----------------- CONTACT STYLING --------------------- */
 #contact {
-    background-color: #030303;
+    background-color: #030303
     min-height: 100vh;
     color: var(--color2);
 }
@@ -466,7 +480,8 @@ nav ul li a:hover::after {
     width: 100%;
     min-height: 100vh;
     padding: 2rem;
-    background-color: var(--font-color);
+    background-image:url(assets/Untitled-2.png);
+    background-size: cover;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -750,3 +765,27 @@ textarea.input {
         padding: 0.45rem 1.2rem;
     }
 }
+/* ----------------- CONTACT STYLING --------------------- */
+
+/* ----------------- FOOTER STYLING --------------------- */
+
+.footer {
+    background-color: var(--color1);
+    text-align: center;
+    color: #fff;
+    font-family: var(--font2);
+    padding: 15px;
+}
+
+.footer  a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer  a:hover {
+    color:var(--color4);
+    text-decoration: underline;
+}
+
+
+/* ----------------- FOOTER STYLING --------------------- */

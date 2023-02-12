@@ -13,6 +13,9 @@ function opentab(tabname){
     event.currentTarget.classList.add("active-link");
     document.getElementById(tabname).classList.add("active-tab");
 }
+// Download CV button 
+
+
 //Portfolio Section -Mix it Up- Filter animation 
 
 let mixer = mixitup(".portfolio-gallery", {
